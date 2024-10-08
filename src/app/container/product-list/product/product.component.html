@@ -1,0 +1,13 @@
+<div class="ekart--product--item" [routerLink]="['/product', product.id]">
+    <div class="ekart--product--image">
+        <img [src]="product.image" class="ekart--product--image">
+    </div>
+
+    <div class="ekart--add--to--price">
+        {{product.price}}$
+    </div>
+
+    <div class="ekart--product--name">{{product.title}}</div>
+
+    <div class="ekart--product--category"> {{product.category}}</div>
+</div>

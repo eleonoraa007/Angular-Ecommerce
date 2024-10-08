@@ -1,0 +1,45 @@
+
+.ekart--products--sort {
+    display: flex;
+    align-items: center;
+    margin: 5vh 15vh;
+  }
+
+  .ekart--products--sort label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  .ekart--products--sort select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    cursor: pointer;
+    transition: border-color 0.3s;
+  }
+  
+  .ekart--products--sort select:focus {
+    border-color: #007bff;
+    outline: none; 
+  }
+  
+  .ekart--products--sort select option {
+    font-size: 14px;
+    padding: 8px;
+  }
+  
+  .ekart--products--sort select:hover {
+    border-color: #007bff;
+  }
+  
+.ekart--products--container {
+    margin: 8vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 17vh;
+}

@@ -1,0 +1,14 @@
+<div class="ekart--products--sort">
+    <label for="sort">Sort by:</label>
+    <select id="sort" (change)="onSortChange($event)">
+        <option value="default">Default</option>
+        <option value="lowToHigh">Price: Low to High</option>
+        <option value="highToLow">Price: High to Low</option>
+    </select>
+</div>
+
+<div class="ekart--products--container">
+    <div *ngFor="let prod of filteredProducts">
+        <product [product]="prod"></product>
+    </div>
+</div>

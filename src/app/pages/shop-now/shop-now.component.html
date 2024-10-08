@@ -1,0 +1,11 @@
+<div class="shop-now-page">
+    <h1>Welcome to Our Shop!</h1>
+    <p>Explore our categories below. This is just a visual representation of our product selection.</p>
+
+
+    <div class="ekart--products--container">
+        <div *ngFor="let prod of products">
+            <product [product]="prod"></product>
+        </div>
+    </div>
+</div>
