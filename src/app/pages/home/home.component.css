@@ -15,7 +15,7 @@
       }
   
       .shop-now-btn {
-        background-color: #ff6347;
+        background-color: rgb(53, 52, 52);
         color: white;
         padding: 10px 20px;
         border: none;
@@ -25,7 +25,7 @@
         margin-top: 20px;
   
         &:hover {
-          background-color: #ff4500;
+          background-color: black;
         }
       }
     }

@@ -15,6 +15,7 @@ import { HelpComponent } from './pages/help/help.component';
 import { ExchangeReturnComponent } from './pages/exchange-return/exchange-return.component';
 import { ProductDetailsComponent } from './container/product-details/product-details.component';
 import { ShopNowComponent } from './pages/shop-now/shop-now.component';
+import { FavoriteComponent } from './pages/favorite/favorite.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ShopNowComponent } from './pages/shop-now/shop-now.component';
     HelpComponent,
     ExchangeReturnComponent,
     ProductDetailsComponent,
-    ShopNowComponent
+    ShopNowComponent,
+    FavoriteComponent
   ],
   imports: [
     BrowserModule,

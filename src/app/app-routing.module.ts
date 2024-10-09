@@ -6,6 +6,7 @@ import { ExchangeReturnComponent } from './pages/exchange-return/exchange-return
 import { ProductListComponent } from './container/product-list/product-list.component';
 import { ProductDetailsComponent } from './container/product-details/product-details.component';
 import { ShopNowComponent } from './pages/shop-now/shop-now.component';
+import { FavoriteComponent } from './pages/favorite/favorite.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path: 'exchange-return', component: ExchangeReturnComponent},
   {path: 'shop-now', component: ShopNowComponent},
   {path: "product/:id", component: ProductDetailsComponent},
+  {path: "favorite", component: FavoriteComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: '**', redirectTo: '/home', pathMatch: 'full'},
 ];

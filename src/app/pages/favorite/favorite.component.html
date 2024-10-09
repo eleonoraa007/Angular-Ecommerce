@@ -1,0 +1,15 @@
+<h2>Your Favorite Products</h2>
+
+<div *ngIf="favoriteProducts.length === 0" class="favorite-default">
+    <p>No products in your favorites yet!</p>
+</div>
+
+<div *ngIf="favoriteProducts.length > 0" class="favorite-products-list">
+    <div *ngFor="let product of favoriteProducts" class="favorite-product">
+        <h3>{{ product.title }}</h3>
+        <img [src]="product.image" class="favorite-image">
+        <p>{{ product.description | slice: 0: 100}}...</p>
+        <p><strong>Price: ${{ product.price }}</strong></p>
+        <button (click)="removeFromFavorites(product.id)">Remove from Favorites</button>
+    </div>
+</div>

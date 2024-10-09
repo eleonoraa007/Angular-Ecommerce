@@ -1,38 +1,38 @@
 .ekart-menu {
-    padding: 1vh 2vh;
-    color: #79848c;
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
-    width: auto;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+  padding: 1vh 2vh;
+  color: #79848c;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  width: auto;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .ekart-menu a {
-    text-decoration: none;
-    color: black;
-    font-size: 15px;
-    font-weight: 500;
-    padding: 10px 8px;
-    border-radius: 5px;
-  }
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 8px;
+  border-radius: 5px;
+}
 
 
 .ekart-menu a:hover,
 .ekart-menu a.active {
-  background-color: #414141; 
-  color: white; 
+background-color: #414141; 
+color: white; 
 } 
 
 @media screen and (min-width: 800px) {
-    .ekart-menu {
-        padding: 1vh 3vh;
-        font-size: 20px;
+  .ekart-menu {
+      padding: 1vh 3vh;
+      font-size: 20px;
+  }
+  .ekart-menu a {
+      padding: 10px 15px; 
+      font-size: 18px;
     }
-    .ekart-menu a {
-        padding: 10px 15px; 
-        font-size: 18px;
-      }
 } 
